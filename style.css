@@ -1,3 +1,9 @@
+:root {
+    --website-bg: #111112;
+    --link: #ffffff;
+    --link-highlight: #ebebeb;
+}
+
 html, body {
     font-family: Arial, Helvetica, sans-serif;
     height: 100%;
@@ -9,7 +15,7 @@ html, body {
 .content {
     width: 100%;
     min-height: 100%;
-    background-color: #151515;
+    background-color: var(--website-bg);
 }
 
 .logo {
@@ -55,12 +61,12 @@ html, body {
   }
 
 .social-links a {
-    color: #444444;
+    color: var(--link);
     text-decoration: none;
     margin: 1rem;
 }
 .social-links a:hover, .social-links a:active {
-    color: #666666;
+    color: var(--link-highlight);
 }
 
 .pulse {
