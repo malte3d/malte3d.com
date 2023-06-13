@@ -4,7 +4,8 @@
     --link-highlight: #ebebeb;
 }
 
-html, body {
+html,
+body {
     font-family: Arial, Helvetica, sans-serif;
     height: 100%;
     margin: 0;
@@ -28,29 +29,35 @@ html, body {
     margin: auto;
 }
 
-@media only screen and (min-width: 320px) and (max-width: 479px){ 
+@media only screen and (min-width: 320px) and (max-width: 479px) {
     .logo {
         max-width: 90% !important;
     }
- }
+}
 
-@media only screen and (min-width: 480px) and (max-width: 767px){ 
+@media only screen and (min-width: 480px) and (max-width: 767px) {
     .logo {
         max-width: 90% !important;
     }
- }
+}
 
-@media only screen and (min-width: 768px) and (max-width: 1024px){ 
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
     .logo {
         max-width: 70% !important;
     }
- }
+}
 
-@media only screen and (min-width: 1025px){ 
+@media only screen and (min-width: 1025px) {
     .logo {
         max-width: 40% !important;
     }
- }
+}
+
+@media only screen and (orientation: portrait) {
+    .logo {
+        max-width: 30% !important;
+    }
+}
 
 .social-links {
     position: absolute;
@@ -58,14 +65,16 @@ html, body {
     bottom: 15px;
     transform: translate(-50%, -50%);
     margin: 0 auto;
-  }
+}
 
 .social-links a {
     color: var(--link);
     text-decoration: none;
     margin: 1rem;
 }
-.social-links a:hover, .social-links a:active {
+
+.social-links a:hover,
+.social-links a:active {
     color: var(--link-highlight);
 }
 
