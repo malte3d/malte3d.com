@@ -1,7 +1,7 @@
 :root {
     --website-bg: #111112;
-    --link: #ffffff;
-    --link-highlight: #ebebeb;
+    --link: #eeeeee;
+    --link-highlight: #e2e2e2;
 }
 
 html,
@@ -20,7 +20,7 @@ body {
 }
 
 .logo {
-    max-width: 40%;
+    max-width: 100px;
     position: absolute;
     top: 0;
     left: 0;
@@ -31,31 +31,31 @@ body {
 
 @media only screen and (min-width: 320px) and (max-width: 479px) {
     .logo {
-        max-width: 90% !important;
+        max-width: 100px !important;
     }
 }
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
     .logo {
-        max-width: 90% !important;
+        max-width: 150px !important;
     }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
     .logo {
-        max-width: 70% !important;
+        max-width: 200px !important;
     }
 }
 
 @media only screen and (min-width: 1025px) {
     .logo {
-        max-width: 40% !important;
+        max-width: 400px !important;
     }
 }
 
 @media only screen and (orientation: portrait) {
     .logo {
-        max-width: 30% !important;
+        max-width: 150px !important;
     }
 }
 
